@@ -18,4 +18,17 @@ I checked for dupicates using conditional formatting and using the formula, =cou
 
 We do not need trip duration if we have ride length
 we also need the columns to be similar before we aggregate the data and can do so by appending.
+I also kept the subscriber/customer (2019) and member/casual (2020) differentiated so we can see the differences between the two years.
 
+From the basic google sheets formulas, I found that;
+The average ride length is around 19 minutes and 44 seconds
+The most common day of the week that a bike trip occurs is on Wednesday.
+
+From the pivot tables, I found that:
+casual riders have more average ride time by making a pivot table with membership status as the rows and average ride length as the values
+people ride the most on wednesday (also supported by the google sheets formula) with a pivot table with rows day of the week and values as membership status.
+The most popular biking starts at Canal St & Adams St with a pivot table containing rows as the name of the station that people started biking and the values as membership status.
+
+In conclusion, from the data I would reccommend:
+1) The company's initial focus on transforming regular customers into members instead of making ads targeting new potential bikers was the right decision because on average the ride time for regular customers is more than members, so they would more likely be interested in upgrading.
+2) The best place and time to advocate would be on Wednesday at Canal St & Adams St
